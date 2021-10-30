@@ -53,13 +53,13 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('My Dev 🧒', url='https://t.me/hiten003'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_Robot')
+        InlineKeyboardButton('Contact us', url ='https://t.me/hiten003')
     ],[
         InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/requestprime')
     ],[
         InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
     ],[
-        InlineKeyboardButton('💫 Developers', url='https://t.me/moviezzprime')
+        InlineKeyboardButton(' Developers', url='https://t.me/moviezzprime')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
