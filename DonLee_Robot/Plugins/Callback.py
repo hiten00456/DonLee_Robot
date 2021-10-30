@@ -1609,7 +1609,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/MRK_YT"
+                    "My Dev ⚡", url="https://t.me/hiten003"
                 ),
                 
             InlineKeyboardButton
@@ -1640,14 +1640,14 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/Mrk_YT'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/PR0FESS0R-99/DonLee_Robot')
+            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/hiten003'),
+            InlineKeyboardButton('Developers', url ='https://t.me/moviezzprime')
         ],[
-            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/mo_Tech_yt')
+            InlineKeyboardButton('🛠 Support 🛠', url='https://t.me/requestprime')
         ],[
             InlineKeyboardButton('⚙ Help ⚙', callback_data="help")
         ],[
-            InlineKeyboardButton('💫 Deploy Video 💫', url='https://youtu.be/uAHl5jvnrhk')
+            InlineKeyboardButton('Contact us', url='https://hiten003')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
